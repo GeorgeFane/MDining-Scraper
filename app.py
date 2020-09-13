@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 def scrape(link):
     r = requests.get(link) 
     
-    soup = BeautifulSoup(r.content, 'html5lib') 
+    soup = BeautifulSoup(r.content, 'html.parser') 
 
     table = soup.find('div', attrs = {'id':'content'}) 
     titles=table.findAll('span', attrs = {'class':'calhours-title'})
