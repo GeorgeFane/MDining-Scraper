@@ -62,10 +62,11 @@ app.layout = html.Div([
         ],
         data=data,
 
-        filter_action="native",
         sort_action="native",
         sort_mode="multi",
         page_action="native",
+	    
+        style_as_list_view=True,
     ),
 ])
 	
