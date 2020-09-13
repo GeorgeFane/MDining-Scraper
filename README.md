@@ -1,5 +1,5 @@
-This repo contains code that can solve payoff matrices with any number of players and strategies. It finds Nash equilibria.
+This compiles the hours for all University of Michigan Dining Halls onto a single page
 
-The matrix that is often taught in intro economics courses is a 2-player 2-strategy game, shown as a grid containing four cells that each contain 2 payoffs. Handling more strategies means increasing the 'side length' of the matrix, which would result in a square matrix but larger. Handling more players means expanding that square into higher dimensions, like a payoff tensor or 'cube' for 3 players or a 'hypercube' for even higher numbers of players.
+Admittedly, it's a very small annoyance to have to click another hall's page to see its hours, but this project was also an opportunity to work with web scraping. I thought I'd use an image-to-text module, similar to Google Lens, but I ended up using Beautiful Soup, an HTML parser.
 
-This code is deployed as a Heroku web app, which can be found at: https://payoff-matrix-solver.herokuapp.com/
+I've never worked with HTML before (I use Dash to avoid it for my web development), so it was tricky to get the info I wanted from the parsed HTML. I figured it out eventually, though.
