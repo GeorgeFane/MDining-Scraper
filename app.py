@@ -33,8 +33,6 @@ from pytz import timezone
 tz = timezone("America/Detroit")
 now=lambda: datetime.now(tz).strftime("%m/%d/%Y, %H:%M:%S")
 
-from jupyter_dash import JupyterDash
-
 from dash import Dash
 import dash_core_components as dcc
 import dash_html_components as html
@@ -44,7 +42,7 @@ from dash_table import DataTable
 
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
-app = JupyterDash(__name__, external_stylesheets=external_stylesheets)
+app = Dash(__name__, external_stylesheets=external_stylesheets)
 server = app.server
 
 app.layout = html.Div([
