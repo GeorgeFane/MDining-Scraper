@@ -1,5 +1,6 @@
 import requests 
 from bs4 import BeautifulSoup 
+import html
 
 def scrape(link):
     r = requests.get(link) 
@@ -31,9 +32,7 @@ def getTable():
 headers, data=getTable()
 
 from datetime import datetime
-from pytz import timezone
-tz = timezone("America/Detroit")
-now=lambda: datetime.now(tz).strftime("%m/%d/%Y, %H:%M:%S")
+now=lambda: datetime.now().strftime("%m/%d/%Y, %H:%M:%S")
 
 from dash import Dash
 import dash_core_components as dcc
