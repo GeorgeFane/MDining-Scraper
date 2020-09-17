@@ -48,7 +48,7 @@ server = app.server
 
 app.layout = html.Div([
     html.H1('MDining Hours'),
-    html.H3('Updated '+now()),
+    html.H3('Updated '+str(now())),
 
     DataTable(
         id='table',
