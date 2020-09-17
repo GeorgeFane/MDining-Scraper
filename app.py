@@ -30,6 +30,11 @@ def getTable():
 
 headers, data=getTable()
 
+from datetime import datetime
+from pytz import timezone
+tz = timezone("America/Detroit")
+now=lambda: datetime.now(tz).strftime("%m/%d/%Y, %H:%M:%S")
+
 from dash import Dash
 import dash_core_components as dcc
 import dash_html_components as html
