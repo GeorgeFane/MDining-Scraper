@@ -18,20 +18,17 @@ halls=["Bursley","East Quad","Markley","Mosher-Jordan","North Quad","South Quad"
 
 links=[url+hall.replace(' ', '-') for hall in halls]
 
-def getData():
+def getTable():
+    headers=[]
     rows=[scrape(link) for hall, link in zip(halls, links)]
+    
     for row, hall in zip(rows, halls):
+        headers+=row.keys()
         row['Hall']=hall
-    return rows
 
-data=getData()
+    return set(headers), rows
 
-headers=['Hall', 'Breakfast', 'Brunch', 'Lunch', 'Dinner']
-
-from datetime import datetime
-from pytz import timezone
-tz = timezone("America/Detroit")
-now=lambda: datetime.now(tz).strftime("%m/%d/%Y, %H:%M:%S")
+headers, data=getTable()
 
 from dash import Dash
 import dash_core_components as dcc
@@ -47,7 +44,7 @@ server = app.server
 
 app.layout = html.Div([
     html.H1('MDining Hours'),
-    html.H3('Updated '+now()),
+    html.H3('Updated '),
 
     DataTable(
         id='table',
