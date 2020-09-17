@@ -9,7 +9,8 @@ import dash_html_components as html
 
 from dash_table import DataTable
 
-
+# for a dining hall's MDining link,
+# this gets all meals and hours that day
 def scrape(link):
     r = requests.get(link)
     soup = BeautifulSoup(r.content, 'html.parser')
@@ -23,7 +24,8 @@ def scrape(link):
         for title, time in zip(titles, times)
     }
 
-
+# dining hall links only differ after the rightmost /
+# below is the part that all links share
 url = 'https://dining.umich.edu/menus-locations/dining-halls/'
 
 halls = [
@@ -36,11 +38,13 @@ halls = [
     'Twigs at Oxford'
 ]
 
+# constructs links for all dining halls
 links = [url+hall.replace(' ', '-') for hall in halls]
 
+# gets meals and hours for all dining halls
+rows = [scrape(link) for link in links]
 
-rows = [scrape(link) for hall, link in zip(halls, links)]
-
+# adds hall name to each hall's dictionary
 for row, hall in zip(rows, halls):
     row['Hall'] = hall
 
@@ -53,6 +57,7 @@ headers = [
     'Late Night'
 ]
 
+#stores current time in EST
 tz = timezone("America/Detroit")
 stamp = datetime.now(tz).strftime("%m/%d/%Y, %H:%M:%S")
 
