@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 from datetime import datetime
 from pytz import timezone
 
-from dash import Dash
+from jupyter_dash import JupyterDash
 import dash_core_components as dcc
 import dash_html_components as html
 
@@ -68,7 +68,7 @@ def menu(hall):
 
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
-app = Dash(__name__, external_stylesheets=external_stylesheets)
+app = JupyterDash(__name__, external_stylesheets=external_stylesheets)
 server = app.server
 app.title = 'M|Dining Scraper'
 
