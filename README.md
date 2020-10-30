@@ -1,5 +1,4 @@
-Use this instead: http://bit.ly/mdining-scraper
-Way faster
+Use this instead: http://bit.ly/mdining-scraper (way faster)
 
 PRIOR VERSION OF README
 This is v2 of my MDining Scraper app. 
