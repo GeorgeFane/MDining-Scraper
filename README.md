@@ -1,3 +1,7 @@
+Use this instead: http://bit.ly/mdining-scraper
+Way faster
+
+PRIOR VERSION OF README
 This is v2 of my MDining Scraper app. 
 
 v0 simply got the hours for each meal for each dining hall, which my friends helped me realize was not very useful. 
