@@ -33,7 +33,7 @@ getCourses = lambda: [div.xpath('.//div[@class="item-name"]/text()') for div in 
 
 tz = timezone("America/Detroit")
 ptime = lambda string, form: dt.strptime(string, form).time()
-now = lambda: dt.now(tz).strftime('%-d %b %Y %-I:%m %p')
+now = lambda: dt.now(tz).strftime('%-d %b %Y %-I:%M %p')
 
 tree = 0
 def execute(hall):
@@ -57,3 +57,5 @@ g = Github(API_KEY)
 repo = g.get_repo("GeorgeFane/MDining-Scraper")
 contents = repo.get_contents("scraped.txt")
 repo.update_file(contents.path, 'Updated ' + now(), df.to_csv(), contents.sha, branch="master")
+
+print('done')
