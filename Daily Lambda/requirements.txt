@@ -1,0 +1,8 @@
+PyGithub
+pandas
+numpy
+requests
+lxml
+datetime
+pytz
+deprecated
