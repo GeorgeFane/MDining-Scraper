@@ -1,5 +1,5 @@
 ,Hall,Meal,Time,Foods
-0,East Quad,Breakfast,8:00 am ‑ 10:00 am,"['Organic Steel-Cut Oatmeal', 'UNIT CHOICE MEAL ', 'PARSTOCK MADE TO ORDER OMELETTE', 'Deep Fried French Toast Sticks', 'UNIT CHOICE MEAL ']"
+0,East Quad,Breakfast,8:00 am ‑ 10:00 am,"['Deep Fried French Toast Sticks', 'Turkey Bacon ', 'Potato Tots ', 'Roasted Butternut Squash', 'PARSTOCK MADE TO ORDER OMELETTE', 'Scrambled Eggs  ', 'Lemon Poppyseed Muffins ', 'Blueberry Muffins ', 'Cinnamon Sugar Donuts ']"
 1,East Quad,Lunch,11:30 am ‑ 1:30 pm,"['Sandwiches and Salads Made to Order', 'UNIT CHOICE MEAL ', 'UNIT CHOICE MEAL ', 'UNIT CHOICE MEAL ', 'Maize and Blue Cookies']"
 2,East Quad,Dinner,5:00 pm ‑ 7:00 pm,"['Sandwiches and Salads Made to Order', 'UNIT CHOICE MEAL ', 'UNIT CHOICE MEAL ', 'UNIT CHOICE MEAL ', 'Chocolate Chunk Cookies']"
 3,Mosher-Jordan,Breakfast,8:00 am ‑ 10:00 am,"['Oatmeal ', 'Fresh Fruit ', 'Hard Cooked Eggs', 'Zucchini and Summer Squash  ', 'Scrambled Tofu ', 'Scrambled Eggs  ', 'Turkey Bacon ', 'Potato Tots ', 'Pancakes ', 'Apple Cinnamon Muffin', 'Cinnamon Sugar Donuts ']"
