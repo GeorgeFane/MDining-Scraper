@@ -1,5 +1,5 @@
 ,Hall,Meal,Time,Foods
-0,Bursley,Breakfast,7:00 am ‑ 10:30 am,"['Oatmeal ', 'Chef Choice', 'Scrambled Tofu ', 'Scrambled Eggs  ', 'Chocolate Croissant', 'Chef Choice']"
+0,Bursley,Breakfast,7:00 am ‑ 10:30 am,"['Oatmeal ', 'Grilled Peppers and Onions ', 'Deep Fried Tritaters', 'Bratwurst ', 'Deep Fried French Toast Sticks', 'Scrambled Tofu ', 'Scrambled Eggs  ', 'Chocolate Croissant', 'Cappuccino Chocolate Chip Muffin', 'Cinnamon Sugar Donuts ']"
 1,Bursley,Lunch,10:30 am ‑ 2:00 pm,"['Chef Choice', 'Sandwiches Made to Order', 'Chef Choice', 'Chef Choice', 'Chef Choice', 'Chef Choice', 'Chef Choice', 'Chef Choice', 'Chocolate Coconut Cream Pie w/ Almond', 'Chef Choice', 'Confetti Bars']"
 2,Bursley,Dinner,5:00 pm ‑ 7:00 pm,"['Chef Choice', 'Sandwiches Made to Order', 'Chef Choice', 'Chef Choice', 'Chef Choice', 'Chef Choice', 'Chef Choice', 'Chef Choice', 'Bumpy Cake', 'Chocolate Coconut Cream Pie w/ Almond']"
 3,Mosher-Jordan,Breakfast,7:00 am ‑ 10:30 am,"['Oatmeal ', 'Southern Style Potatoes ', 'Grilled Vegetables', 'Scrambled Tofu ', 'Scrambled Eggs  ', 'Andouille Sausage', 'Deep Fried French Toast Sticks', 'Quiche Lorraine ', 'Chocolate Croissant', 'Assorted Mini Scones ', 'Blueberry Muffins ']"
