@@ -1,1 +1,32 @@
-df.to_json(orient='records', indent=4, force_ascii=False)
+[
+    {
+        "Hall":"Mosher-Jordan",
+        "Meal":"Breakfast",
+        "Time":"9:00 am ‑ 10:30 am",
+        "Foods":"Oven Roasted Vegetables, Scrambled Tofu, Scrambled Eggs, Hash Browns, Pork Sausage Patty, Deep Fried French Toast Sticks, Banana Bread, Blueberry Muffins, Cinnamon Sugar Donuts"
+    },
+    {
+        "Hall":"Mosher-Jordan",
+        "Meal":"Brunch",
+        "Time":"10:30 am ‑ 1:30 pm",
+        "Foods":"Sandwiches and Salads Made to Order, Halal Chicken Tikka Masala, Basmati Rice, Broccolini Saute, Garlic Naan Bread, Spaghetti Pasta, Roasted Garlic and Rosemary Marinara, Hash Browns, Oven Roasted Vegetables, Scrambled Tofu, Scrambled Eggs, Pork Sausage Links, Deep Fried French Toast Sticks, Beef & Mushroom Blended Burger, Beet Chickpea Burger on White Bun, Grilled Cheese, Chicken Tenders, Seasoned Curly Fries, Cheese Pizza, Pepperoni Pizza, Banana Bread, Cinnamon Sugar Donuts, Blueberry Muffins, Breakfast Cookies with Peanuts"
+    },
+    {
+        "Hall":"Mosher-Jordan",
+        "Meal":"Dinner",
+        "Time":"5:30 pm ‑ 7:00 pm",
+        "Foods":"Sandwiches and Salads Made to Order, Herb Baked Chicken, Basil Parmesan Orzo, Broccolini Saute, Marinated Seitan with Coconut & Peanuts, Basmati Rice, Thai Cucumber Salad, Monterey Chicken Breast, Corn Pudding, Zucchini and Summer Squash, Blackened Tofu, Creole Rice, Zucchini and Summer Squash, Beef & Mushroom Blended Burger, Beet Chickpea Burger on White Bun, Grilled Cheese, Chicken Tenders, Seasoned Curly Fries, Pepperoni Pizza, Cheese Pizza, Assorted Desserts"
+    },
+    {
+        "Hall":"South Quad",
+        "Meal":"Brunch",
+        "Time":"11:30 am ‑ 1:30 pm",
+        "Foods":"Oatmeal, Brazilian Kale, Scrambled Tofu, Hash Browns, Scrambled Eggs, Chicken Sausage Patties, Belgian Waffles, Kung Pao Tofu w\/ Peanuts, Long Grain Rice, Individual Pizza, Halal Chicken Tikka Masala, Broccoli Spears, Garlic Naan Bread, Chicago Style Hot Dog, Seasoned Curly Fries, Grilled Cheese, Vegetable Stir Fry Blend, Marinated Beef, Long Grain Rice, General Tso Sauce, Cappuccino Chocolate Chip Muffins, Blueberry Muffins, Chocolate Glazed Donuts, M & M Brownies, Decadence Brownie, Cookie Crumb Topping, Blueberry Banana Cake w\/Coconut, Triple Berry Crisp"
+    },
+    {
+        "Hall":"South Quad",
+        "Meal":"Dinner",
+        "Time":"5:30 pm ‑ 7:30 pm",
+        "Foods":"Pho Noodle Bar, Vegetable Pho, Beef and Vegetable Udon Pho, Marinated Seitan with Coconut & Peanuts, Basmati Rice, Thai Cucumber Salad, Individual Pizza, Herb Baked Chicken, Basil Parmesan Orzo, Broccolini Saute, Chicago Style Hot Dog, Seasoned Curly Fries, Grilled Cheese, Taiwanese Style Three Cup Chicken, Medium Grain Rice, German Choc Cake Coconut, Pecan, Walnut"
+    }
+]
